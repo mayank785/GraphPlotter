@@ -14,10 +14,10 @@ def graph_maker():
         x_values.append(i)
         y_values.append(o[i])
         i += 1
-    print(x_values)
-    print(y_values)
+    print(x_values)     #can be commented out
+    print(y_values)     #can be commented out
     plt.plot(x_values, y_values)
     plt.show()
 
-print(o)
+print(o)    #can be commented out
 graph_maker()
